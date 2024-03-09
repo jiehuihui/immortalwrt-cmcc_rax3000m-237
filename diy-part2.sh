@@ -12,5 +12,5 @@
 
 # Modify default IP
 sed -i 's/192.168.1.1/192.168.6.1/g' package/base-files/files/bin/config_generate
-rm -rf package/feeds/luci/luci-lib-docker
-rm -rf package/feeds/luci/luci-app-dockerman
+rm -rf package/feeds/luci/collections/luci-lib-docker
+rm -rf package/feeds/luci/applications/luci-app-dockerman
