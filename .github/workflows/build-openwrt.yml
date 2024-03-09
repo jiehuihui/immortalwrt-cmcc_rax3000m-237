@@ -171,7 +171,7 @@ jobs:
         echo "账号：root" >> release.txt
         echo "密码：无" >> release.txt
         echo "默认主题：Argon" >> release.txt
-        echo "集成插件：acme aria2 argon-config docker dockerman diskman ddns-go ksmb mtwifi-cfg uhttpd kmod-fuse" >> release.txt
+        echo "集成插件：acme aria2 argon-config docker dockerman diskman ddns-go ksmb mtwifi-cfg wechatpush uhttpd kmod-fuse" >> release.txt
         echo "编译源码：https://github.com/padavanonly/immortalwrt-mt798x" >> release.txt
         echo "status=success" >> $GITHUB_OUTPUT
 
