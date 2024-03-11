@@ -19,4 +19,3 @@
 #luci-app-dockerman up
 git clone https://github.com/lisaac/luci-lib-docker package/luci-lib-docker
 git clone https://github.com/lisaac/luci-app-dockerman package/luci-app-dockerman
-git clone https://github.com/tty228/luci-app-wechatpush package/luci-app-wechatpush
